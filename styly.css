@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #070018;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: inline-flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav a {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+  }
+  
+  nav a.active,
+  nav a:hover {
+    background-color: #34508b;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+  }
+  
+  main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .banner {
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #531b61;
+    border-radius: 200px
+  }
+  
+  .kategorie ul {
+    margin-left: 20px;
+  }
+  
+  .cisla {
+    padding-left: 100px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000922;
+    color: white;
+    margin-top: 60px;
+  }
+
+  .galerie {
+  padding: 2rem;
+  text-align: center;
+}
+
+.galerie h2 {
+  margin-bottom: 1rem;
+}
+
+.obrazky-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+.obrazky-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  object-fit: cover;
+}
+
